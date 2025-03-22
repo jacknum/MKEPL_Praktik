@@ -24,6 +24,15 @@ TELKOM UNIVERSITY PURWOKERTO <br>
 
 </div>
 
+# Tugas
+Deskripsi Tugas :
+
+Berdasarkan class Song.Java yang tercantum pada assignment ini lakukan hal-hal berikut ini:
+
+1. Identifikasi bad smell yang ada pada class tersebut!
+
+2. Lakukan refactoring terhadap class Song.Java sesuai dengan bad smell yang dilakukan, silahkan buat method dan class baru jika dibutuhkan!
+
 # Penjelasan
 setelah mengidentifikasi bad smell yang terdapat pada code awal di song.java saya melakukan refactoring pada beberapa poin yaitu: <br>
 1. Long Parameter List: Pada constructor song yang sebelum di refactor, code tersebut mempunyai banyak parameter yang mana bisa dikemas dengan lebih simple dan efisien dalam objek Album dan Artist yang mana agar penggunaan parameter tidak berlebihan<br>
