@@ -42,6 +42,55 @@ public class LibraryMember {
         this.langgananBuletin = langgananBuletin;
     }
 
+    public static class MemberInfo {
+        private String namaLengkap;
+        private String alamat;
+        private String nomorTelepon;
+        private String email;
+        private String jenisKelamin;
+        private String kodeAnggota;
+        private Date tanggalGabung;
+
+        public MemberInfo(String namaLengkap, String alamat, String nomorTelepon, String email, String jenisKelamin,
+                String kodeAnggota, Date tanggalGabung) {
+            this.namaLengkap = namaLengkap;
+            this.alamat = alamat;
+            this.nomorTelepon = nomorTelepon;
+            this.email = email;
+            this.jenisKelamin = jenisKelamin;
+            this.kodeAnggota = kodeAnggota;
+            this.tanggalGabung = tanggalGabung;
+        }
+
+        public String getNamaLengkap() {
+            return namaLengkap;
+        }
+
+        public String getAlamat() {
+            return alamat;
+        }
+
+        public String getNomorTelepon() {
+            return nomorTelepon;
+        }
+
+        public String getEmail() {
+            return email;
+        }
+
+        public String getJenisKelamin() {
+            return jenisKelamin;
+        }
+
+        public String getKodeAnggota() {
+            return kodeAnggota;
+        }
+
+        public Date getTanggalGabung() {
+            return tanggalGabung;
+        }
+    }
+
     public void cetakProfilLengkap() {
         System.out.println("===== PROFIL ANGGOTA =====");
         System.out.println("Nama         : " + namaLengkap);
