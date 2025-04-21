@@ -58,7 +58,7 @@ public class LibraryMember {
         skor += jumlahDenda * 0.1;
         if (!statusAktif)
             skor += 5;
-        if (Keanggotaan.equals("DASAR"))
+        if (Keanggotaan.getTingkat().equalsIgnoreCase("DASAR"))
             skor += 2;
         if (jumlahBukuDipinjam > 50)
             skor -= 1.5;
